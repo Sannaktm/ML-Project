@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://media.innovationorigins.com/2018/10/traffic-jam-file-new-delhi.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Comic Sans MS', cursive;
+    }
+
+    .content {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5); /* Optional: adds contrast */
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    .title {
+      color: white;
+      font-size: 60px;
+      margin-bottom: 30px;
+    }
+
+    .result {
+      color: red;
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <div class="title">Traffic Volume Estimation</div>
+    <div class="result">{{ result }}</div>
+  </div>
+
+</body>
+</html>

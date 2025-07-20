@@ -21,5 +21,3 @@ Traffic congestion is a critical issue in modern cities. This project provides a
 
 ---
 
-## 🗂️ Project Structure
-
